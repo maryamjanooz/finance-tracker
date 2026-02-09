@@ -42,17 +42,3 @@ Start the development server:
 bash
 npm run dev
 You should see a URL like http://localhost:5173 (or 5174/5175). Open this in your browser.
-Verification Checklist
- Dashboard loads with mock or empty data initially.
- Adding an Invoice updates the Dashboard stats and charts.
- Adding an Expense updates the Dashboard stats and charts.
- "Print List" button in Invoices page opens the print dialog.
- Search bar filters the Invoice list by Client Name or Status.
-Bonus Features Verified
- Expense Breakdown Chart: Pie chart on Dashboard.
- Individual Invoice View: View/Print specific invoices with formatted template.
- Search/Filter: Search bar for Invoices, Filter inputs for Expenses.
- Dark Mode: Toggle switch in Sidebar.
- CSV Export: Buttons in Invoices and Expenses pages.
- User Authentication: Login/Register flow protecting all routes.
- Recurring Invoices: Option to mark invoices as recurring and duplicate them.
